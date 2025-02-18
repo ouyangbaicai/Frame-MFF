@@ -20,7 +20,7 @@ DEVICE = GPUorCPU.DEVICE
 class NetTrain:
     def __init__(self,
                  data_path='C:\\Users\\HP\\Desktop\\ouyangbaicai\\MSI-DTrans\\Datasets\\Train&Valid\\MFFdatasets',
-                 set_size=1700,
+                 set_size=500,
                  batchsize=1,
                  epochs=200,
                  lr=0.0002,
